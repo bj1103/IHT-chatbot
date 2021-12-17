@@ -17,7 +17,7 @@ app = Flask(__name__)
 try:
     with open('./config_.json') as f:
         config = json.load(f)
-        line_bot_api = LineBotApi(config['channel_access_toke'])
+        line_bot_api = LineBotApi(config['channel_access_token'])
         handler = WebhookHandler(config['channel_secret'])
 except FileNotFoundError:
     logging.info('Local config not found')
