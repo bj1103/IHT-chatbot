@@ -41,14 +41,18 @@ def callback():
 @handler.add(MessageEvent, message=TextMessage)
 def reply(event):
     user_id = event.source.user_id
-    # if event.source.user_id != "Udeadbeefdeadbeefdeadbeefdeadbeef":
-    if not all_users.get(user_id) or event.message.text == '== Start ==':
-        all_users[user_id] = Chatbot(event, line_bot_api)
-    elif event.message.text == '== Rule ==':
-        pass
-    elif event.message.text == '== Staff member ==':
-        pass
+    # if not all_users.get(user_id) or event.message.text == '== Start ==':
+    #     all_users[user_id] = Chatbot(event, line_bot_api)
+    # elif event.message.text == '== Rule ==':
+    #     pass
+    # elif event.message.text == '== Staff member ==':
+    #     pass
+    # else:
+    #     all_users[user_id].next_state(event, line_bot_api)
+    if not all_users.get(user_id):
+        all_users[user_id] = 1
+        logging.info(f'=== Init user === : {user_id}')
     else:
-        all_users[user_id].next_state(event, line_bot_api)
+        logging.info(f'=== I known you === : {user_id}')
 if __name__ == "__main__":
     app.run()
