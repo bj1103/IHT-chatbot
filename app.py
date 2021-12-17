@@ -42,7 +42,7 @@ def callback():
 def reply(event):
     user_id = event.source.user_id
     # if event.source.user_id != "Udeadbeefdeadbeefdeadbeefdeadbeef":
-    if event.message.text == '== Start ==':
+    if not all_users.get(user_id) or event.message.text == '== Start ==':
         all_users[user_id] = Chatbot(event, line_bot_api)
     elif event.message.text == '== Rule ==':
         pass
