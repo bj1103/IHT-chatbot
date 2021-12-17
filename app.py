@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.DEBUG, format=LOGGING_FORMAT, datefmt=DATE_FOR
 
 app = Flask(__name__)
 try:
-    with open('./config_.json') as f:
+    with open('./config.json') as f:
         config = json.load(f)
         line_bot_api = LineBotApi(config['channel_access_token'])
         handler = WebhookHandler(config['channel_secret'])
