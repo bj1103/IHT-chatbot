@@ -40,6 +40,7 @@ def callback():
 
 @handler.add(MessageEvent, message=TextMessage)
 def reply(event):
+    global all_users
     user_id = event.source.user_id[-8:]
     # if not all_users.get(user_id) or event.message.text == '== Start ==':
     #     all_users[user_id] = Chatbot(event, line_bot_api)
