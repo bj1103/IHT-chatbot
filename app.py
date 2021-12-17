@@ -57,13 +57,9 @@ def reply(event):
         pass
     else:
         user.next_state(event, line_bot_api)
-        
+
     with open(f'{user_id}.pkl', 'wb') as f:
         pickle.dump(user, f)
-    # if all_users.get(user_id) == None:
-    #     all_users[user_id] = 1
-    #     logging.info(f'=== Init user === : {user_id}')
-    # else:
-    #     logging.info(f'=== I known you === : {user_id}')
+        
 if __name__ == "__main__":
     app.run()
