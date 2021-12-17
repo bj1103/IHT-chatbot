@@ -44,22 +44,22 @@ def callback():
 @handler.add(MessageEvent, message=TextMessage)
 def reply(event):
     user_id = event.source.user_id[-8:]
-    with open('all_users.pkl', 'rb') as f:
-        all_users = pickle.load(f)
-    
+    try:
+        with open(f'{user_id}.pkl', 'rb') as f:
+            user = pickle.load(f)
+    except:
+        user = None
     if event.message.text == '== Start ==':
-        if all_users.get(user_id):
-            del all_users[user_id]
-        all_users[user_id] = Chatbot(event, line_bot_api)
+        user = Chatbot(event, line_bot_api)
     elif event.message.text == '== Rule ==':
         pass
     elif event.message.text == '== Staff member ==':
         pass
     else:
-        all_users[user_id].next_state(event, line_bot_api)
-    
-    with open('all_users.pkl', 'wb') as f:
-        pickle.dump(all_users, f)
+        user.next_state(event, line_bot_api)
+        
+    with open(f'{user_id}.pkl', 'wb') as f:
+        pickle.dump(user, f)
     # if all_users.get(user_id) == None:
     #     all_users[user_id] = 1
     #     logging.info(f'=== Init user === : {user_id}')
