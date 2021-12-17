@@ -132,3 +132,4 @@ dmypy.json
 ngrok
 .DS_Store
 config.json
+*.pkl
