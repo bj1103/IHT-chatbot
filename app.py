@@ -47,7 +47,7 @@ def reply(event):
     try:
         with open(f'{user_id}.pkl', 'rb') as f:
             user = pickle.load(f)
-    except:
+    except FileNotFoundError:
         user = None
     if event.message.text == '== Start ==':
         user = Chatbot(event, line_bot_api)

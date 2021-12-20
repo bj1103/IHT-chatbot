@@ -1,18 +1,29 @@
 import json
-from linebot.models import TextSendMessage, FlexSendMessage
+from linebot.models import TextSendMessage, FlexSendMessage, QuickReply, QuickReplyButton, MessageAction
 from data.text import *
 
 SELECTOR_TEMPLATE_PATH="./data/selector.json"
+SCRIPT_PATH="./data/script.json"
 SCORE = { 'A' : 1, 'B' : -1 }
 with open(SELECTOR_TEMPLATE_PATH) as f:
     selector = json.load(f)
+with open(SCRIPT_PATH) as f:
+    script = json.load(f)
+script = script['script']
 
 class Chatbot:
     def __init__(self, event, line_bot_api):
         self.problem_num = 0
         self.score = 0
         self.state = 0
-        messages = TextSendMessage(text=start_message)
+        messages = TextSendMessage(
+            text=start_message,
+            quick_reply=QuickReply(
+                items=[
+                    QuickReplyButton(action=MessageAction(label="start", text="start"))
+                ]
+            )
+        )
         self.send_message(event, messages, line_bot_api)
 
     def generate_selector_flex(self, selection_a, selection_b):
@@ -29,39 +40,65 @@ class Chatbot:
             event.reply_token,
             messages
         )
-    
-    def next_state(self, event, line_bot_api):
-        if self.state == 0 and event.message.text == '開始':
-            self.state = 1
-            self.problem_num += 1
-            selector = self.generate_selector_flex("", "")
-            messages = [
-                TextSendMessage(text="A or B ?"), 
-                selector
-            ]
-            self.send_message(event, messages, line_bot_api)
-
-        elif self.state == 1:
-            if (event.message.text == 'A' or event.message.text == 'B'):
-                if self.problem_num < 5:
-                    self.score += SCORE[event.message.text]
-                    self.problem_num += 1
-                    selector = self.generate_selector_flex("", "")
-                    messages = [
-                        TextSendMessage(text="A or B ?"), 
-                        selector
-                    ]
-                    self.send_message(event, messages, line_bot_api)
-                else:
-                    self.score += SCORE[event.message.text]
-                    if self.score > 0:
-                        messages = TextSendMessage(text= "你是A！！")
-                    else:
-                        messages = TextSendMessage(text= "你是B！！")
-                    self.send_message(event, messages, line_bot_api)
-                    self.state = 2
+    def generate_message(self, contents):
+        messages = []
+        for content in contents:
+            if content['type'] == 'text':
+                messages.append(TextSendMessage(text=content["content"]))
+            elif content['type'] == 'text_question':
+                option_items = []
+                for option in ['A', 'B']:
+                    option_items.append(QuickReplyButton(action=MessageAction(label=option, text=option)))
+                messages.append(
+                    TextSendMessage(
+                        text=content["content"],
+                        quick_reply=QuickReply(items=option_items)
+                    )
+                )
+            elif content['type'] == 'text_continue':
+                
+                messages.append(
+                    TextSendMessage(
+                        text=content["content"],
+                        quick_reply=QuickReply(
+                            items=[
+                                QuickReplyButton(action=MessageAction(label="continue", text="continue"))
+                            ]
+                        )
+                    )
+                )
             else:
                 pass
+        return messages
+
+    
+    def next_state(self, event, line_bot_api):
+        if self.state == 0 and event.message.text == 'start':
+            self.state = 1
+            try:
+                answer_script = script[self.problem_num][event.message.text]
+            except KeyError:
+                return
+            messages = self.generate_message(answer_script['contents'])
+            self.send_message(event, messages, line_bot_api)
+            self.problem_num += 1
+
+        elif self.state == 1:
+            try:
+                answer_script = script[self.problem_num][event.message.text]
+            except KeyError:
+                print(self.state)
+                print(self.problem_num)
+                print(script[self.problem_num])
+                print(event.message.text)
+                print(script[self.problem_num][event.message.text])
+                return
+            if answer_script['pass']:
+                return
+            self.score += answer_script['weight']
+            messages = self.generate_message(answer_script['contents'])
+            self.send_message(event, messages, line_bot_api)
+            self.problem_num += 1
         else:
             pass
 
