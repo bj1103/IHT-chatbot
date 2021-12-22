@@ -133,3 +133,4 @@ ngrok
 .DS_Store
 config.json
 *.pkl
+image/

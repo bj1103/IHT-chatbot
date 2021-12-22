@@ -75,10 +75,7 @@
                     },
                     {
                         "type" : "text_continue",
-                        "content" : "伊萊黑色的瞳看起來更加深沉了，淬了毒似的目光讓我有些發怵。\n「layiwa…wutux le layiwa 」他恨恨地從牙縫中擠出這句話，轉身走了。\n「什麼鬼？\n我聽不懂、也沒了出門探險的興致，回到房裡把這句話抄錄到日記裡，然後倒頭睡了。",
-                        "question" : {
-                            "content" : "continue"
-                        }
+                        "content" : "伊萊黑色的瞳看起來更加深沉了，淬了毒似的目光讓我有些發怵。\n「layiwa…wutux le layiwa 」他恨恨地從牙縫中擠出這句話，轉身走了。\n「什麼鬼？\n我聽不懂、也沒了出門探險的興致，回到房裡把這句話抄錄到日記裡，然後倒頭睡了。"
                     }
                 ]
             }
@@ -89,7 +86,7 @@
                 "pass" : false,
                 "contents" : [
                     { 
-                        "type" : "text",
+                        "type" : "text_continue",
                         "content" : "我承諾女神了.....\n親愛的日記，我該怎麼辦？\n我相信父親有他不這麼做得理由，我不過就是一個剛成年的公主，怎麼就這樣貿然誇下海口了。\n貝壺的管理怎麼辦？\n博物館這邊又怎麼交代？\n\nhttps://www.cna.com.tw/postwrite/detail/235956"
                     }
                 ]
@@ -99,7 +96,7 @@
                 "pass" : false,
                 "contents" : [
                     { 
-                        "type" : "text",
+                        "type" : "text_continue",
                         "content" : "女神她痛苦地喊了一聲，隨後同伊萊激動地說了起來。\n這回我沒再聽懂她說的話。\n\nhttps://www.cna.com.tw/postwrite/detail/235956"
                     }
                 ]
@@ -109,6 +106,527 @@
                 "pass" : true,
                 "contents" : []
                 
+            }
+        },
+        {
+            "continue" : {
+                "weight" : 0,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text_continue",
+                        "content" : "2017.10.10 (颱風)\n\n那個神秘的聲音沒再出現了。\n\n今日是部落的慶典，除了為了慶祝豐收，一切的一切也是為了感謝女神的苦心，根據長老們的說詞，每當豐收日將近，為了讓我們保持警惕，不因物資的豐饒而沉溺於玩樂，女神會使用狂暴的力量橫掃一切，她會將沉淪的族人帶走，只有做足準備的族人才有資格享用海洋母親帶來的豐饒，今天是我成年後第一次參與祭典，希望能今年的祭典能順利完成。\n\n颱風簡介:\nhttps://youtu.be/rb4iB9pw1xM"
+                    }
+                ]
+            }
+        },
+        {
+            "continue" : {
+                "weight" : 0,
+                "pass" : false,
+                "contents" : [
+                    [
+                        {
+                            "type" : "text",
+                            "content" : "2017.10.20\n\n慶典後父親像陀螺一樣到處忙得團團轉。\n因為貝壺而認識到灰曼尼特族的人們及記者慕名而來，從慶典開始至昨日，父親都忙著接待外賓們。\n他讓我把代表公主身份的貝冠交給金髮碧眼的鎮長女兒帶上。我照做了。"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "鎮長女兒把頭飾扭成美麗的形狀給記者朋友看，我有點心痛，那是我從小編織上百個繁複的平安飾給族人們、謹慎遵守數十禁忌、努力履行公主義務才能於慶典舞蹈進行時戴上一會兒的寶物。但是，想到她也是大概也是好意地想為灰曼尼特族宣傳，讓更多人認識我們這個美麗的文化跟村落，我就氣不起來。"
+                        },
+                        {
+                            "type" : "text_continue",
+                            "content" : "如果能帶來一些觀光客，讓貧窮的幾戶都找到工作機會，那生活一定會更好吧？\n鎮長女兒阻止我把要獻祭給庫魯克亞女神的珍珠手鍊丟入海中， 我想想她說的文物保存也有道理，這畢竟是祖母留給我的，超過五十年的傳承。我把手鍊交給了博物館館長，他高興地找來父親並熱烈稱讚著這麼漂亮的手鍊在飾品區一定可以成為新的當紅館藏。父親小聲而略帶責怪的告訴我還給女神的祭品可不是飾品。\n\nhttps://medium.com/artech-interpreter/%E6%95%B8%E4%BD%8D%E8%BD%89%E8%AD%AF%E7%B3%BB%E5%88%97-%E8%AB%96%E5%AE%97%E6%95%99%E8%97%9D%E8%A1%93%E5%93%81-%E6%96%87%E7%89%A9%E7%9A%84%E5%8E%9F%E5%A0%B4%E5%9F%9F%E6%AD%B8%E8%BF%94%E8%88%87%E7%A5%9E%E8%81%96%E6%80%A7%E8%BD%89%E8%AD%AF-c3e21b2e8e33"
+                        }
+                    ],
+                    [
+                        {
+                            "type" : "text",
+                            "content" : "2017.10.20\n\n慶典後父親像陀螺一樣到處忙得團團轉。\n因為貝壺而認識到灰曼尼特族的人們及記者慕名而來，從慶典開始至昨日，父親都忙著接待外賓們。\n他讓我把代表公主身份的貝冠交給金髮碧眼的鎮長女兒帶上。我照做了。"
+                        },
+                        {
+                            "type" : "text_continue",
+                            "content" : "但看到她將祖傳的寶貴頭飾凹成奇怪的形狀，快樂地擺著姿勢讓記者們拍著，我心裡很不是滋味。那是我從小編織上百個繁複的平安飾給族人們、謹慎遵守數十禁忌、努力履行公主義務才能於慶典舞蹈進行時戴上一會兒的寶物，憑什麼她可以這樣用？甚至隨性的丟給旁邊的姐妹玩？\n而當我在慶典結束後將珍珠手鍊拋向大海、獻祭於庫魯克亞女神，她們居然憤怒的撿了回來，指責我不懂得文物保存。\n\n我懂女神的感受了，我得和父親談談。\n\nhttps://forum.ettoday.net/news/1282695"
+                        }
+                    ]
+                ]
+            }
+        },
+        {
+            "continue" : {
+                "weight" : 0,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text",
+                        "content" : "2017.12.12\n\n最近心情比較平靜，趁著女神作美出去悠晃。走了許久，部落邊遠區的亮光引起了我的好奇心，上次村民合力修補屋頂的平民小響家，佈置突然變得亮麗了起來，慢步走了進去，當時他們正在用餐，看著豪華的餐點，我的疑問更深了，決定直接開口詢問，他們告訴了我原因：有外人向他們高價收購族裡著名的神風魚，所以存了許多錢，連餐桌都買上了。聽完原由的我，在返家路上反覆思索著..."
+                    },
+                    {
+                        "type" : "text_question",
+                        "content" : "A. 若能使這商業化，將能促進族內經濟\nB. 若過度濫捕感覺會觸犯女神，還是不要輕易嘗試了，必須找天去提醒小響他們"
+                    }
+                ]
+            }
+        },
+        {
+            "A" : {
+                "weight" : 1,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text",
+                        "content": "Mapolong Kita部落 花蓮市創意市集推動原住民產業平台"
+                    },
+                    {
+                        "type" : "image",
+                        "content" : "https://i.imgur.com/QgywyUR.jpg"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "網頁連結：http://www.hualien.gov.tw/circulatedview.php?menu=7&typeid=1760&circulated_id=13372"
+                    },
+                    {
+                        "type" : "text_continue",
+                        "content" : "今日部落來了幾個外地人，雖然我沒參與到他們的宴會，但聽說是他們是為了尋找海平面上升的證據而來，可能會待將近一年，海平面上升是甚麼意思？改天一定要找機會問問他們。"
+                    }
+                ]
+            },
+            "B" : {
+                "weight" : -1,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text_continue",
+                        "content" : "今日部落來了幾個外地人，雖然我沒參與到他們的宴會，但聽說是他們是為了尋找海平面上升的證據而來，可能會待將近一年，海平面上升是甚麼意思？改天一定要找機會問問他們。"
+                    }
+                ]
+            }
+        },
+        {
+            "continue" : {
+                "weight" : 0,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text",
+                        "content" : "2017.12.15\n\n終於找到機會問外地人了，我也有了一點概念，海平面上升指的就是海水變多，似乎和最近天氣變熱有關，仔細一想，部落記錄的小島範圍似乎也越變越小，我還要問些甚麼嗎？"
+                    },
+                    {
+                        "type" : "text_question",
+                        "content" : "A. 再將原因問得更仔細？\nB.不問了，好像很困難，似乎也不關我的事"
+                    }
+                ]
+            }
+        },
+        {
+            "A" : {
+                "weight" : 1,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text_continue",
+                        "content" : "介紹海平面上升與全球暖化成因：https://youtu.be/ciITRpZKSyo"
+                    }
+                ]
+            },
+            "B" : {
+                "weight" : -1,
+                "pass" : true,
+                "contents" : []
+            }
+        },
+        {
+            "continue" : {
+                "weight" : 0,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text",
+                        "content" : "思考到海平面上升會導致小島範圍變小之時，我開始注意到可能因為被淹沒而消失的植物，在未來我要如何向後代解釋？外地人也說天氣變熱會對我們的生活環境造成巨大影響，那這些我熟悉的植物會不會哪天就因為暖化˙的關係消逝。有好多對環境與物種的焦慮與擔憂在我的腦中盤繞，我決定要開始把這些東西記下來！但是，究竟要用什麼方式紀錄呢？"
+                    },
+                    {
+                        "type" : "text_question",
+                        "content" : "A. 把物種採集回家然後加以分類，蒐藏\nB. 在戶外仔細觀察物種後，僅將記錄帶走"
+                    }
+                ]
+            }
+        },
+        {
+            "A" : {
+                "weight" : 0,
+                "pass" : true,
+                "contents" : []
+            },
+            "B" : {
+                "weight" : 0,
+                "pass" : true,
+                "contents" : []
+            }
+        },
+        {
+            "continue" : {
+                "weight" : 0,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text",
+                        "content" : "我發現要能夠完整留下關於這些可能因為暖化而遭受影響的物種，必須要藉由採集／分類／觀察／紀錄並行，才能夠真的全面的達到目的，後來我去問外地人他們都是怎麼看待這種要把東西留下來的問題，他們跟我說了「博物學」這個觀念，進而向我解釋博物學（自然歷史）是對生態和行為的描述。我想，我現在這個做法應該也算是博物學的一塊吧。"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "＊補充博物學知識＊\n想一想還是覺得自己應該要對這個並不熟悉的領域多做了解，所以就想要去找本書來看看，發現今年剛好有出一本在講關於博物學歷史的書耶，叫做大自然的藝術：圖說博物學300年，太酷了趕快來讀！（洪廣冀老師推薦）"
+                    },
+                    {
+                        "type" : "image_continue",
+                        "content": "https://i.imgur.com/aPESWqK.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "continue" : {
+                "weight" : 0,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text",
+                        "content" : " 2018.5.5\n\n大地突然劇烈的震動，彷彿在害怕著甚麼，許多房子都被震倒了，族人們有的慌張有的害怕，父親因為房子倒塌而顯得氣憤，但外地人卻面色凝重地要我們往山上移動，過了不久，真正可怕的事情發生了，大海突然向部落撲了過來，山腳下的房子轉眼間消失，看著大海的肆虐，整個山頭都瀰漫著恐懼。我跪坐在山頭，除了悲憤外，腦中浮現了其他想法："
+                    },
+                    {
+                        "type" : "text_question",
+                        "content" : "A. 問問外地人為甚麼知道要往山頭\nB. 沒有想法，我好難過"
+                    }
+                ]
+            }
+        },
+        {
+            "A" : {
+                "weight" : 1,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text",
+                        "content" : "https://youtu.be/gOEFAxjXs_E"
+                    },
+                    {
+                        "type" : "text_continue",
+                        "content" : "當海底有足以造成海水面垂直變化的因素存在時，即可能造成海嘯的發生，例如海底地震、海底山崩、海底火山爆發和隕石撞擊等，通常最常見的因素為海底地震所造成。海嘯發生前通常會伴隨大地震發生，所以地震之後應立即注意政府單位有無發佈海嘯警報。若位處於危險海域附近應準備撤離動作。若在海邊發現海水快速後退、露出海灘，或是發現遠處海浪有白色浪花向海岸來等現象。這些都是海嘯即將發生的徵兆，應立即前往高處避難。\n連結：https://scweb.cwb.gov.tw/zh-tw/guidance/protection/226"
+                    }
+                ]
+            },
+            "B" : {
+                "weight" : 0,
+                "pass" : true,
+                "contents" : []
+            }
+        },
+        {
+            "continue" : {
+                "weight" : 0,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text",
+                        "content" : "2018.5.6\n\n災難發生後，家附近的大地裂了開來，我從未見過如此景象，原本是地面的地方現在卻成了岩壁，我仔細觀看岩壁上的痕跡，似乎除了砂土外還有一些奇怪的線條以及一塊塊白色的東西，好像小山一樣長在這面牆上，剛好身上帶著鏟子，我決定："
+                    },
+                    {
+                        "type" : "text_question",
+                        "content" : "A. 離開，回到其他的鄰居身邊，他們現在肯定非常害怕，至於這面牆，想必沒隔幾年就會再消失吧。\nB. 敲下幾塊帶回去詢問外地人，或許他們會知道這些白色小山是甚麼。"
+                    }
+                ]
+            }
+        },
+        {
+            "A" : {
+                "weight" : 1,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text",
+                        "content" : "一群外地人向這裡快步走來，手裡還帶著槌子以及從沒看過的工具，不知那面牆有何特別的，反正與我無關。"
+                    },
+                    {
+                        "type" : "image_continue",
+                        "content" : "https://i.imgur.com/lni9GU7.jpg"
+                    }
+                ]
+            },
+            "B" : {
+                "weight" : -1,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text",
+                        "content" : "那岩壁上還有像是蟲一樣的白色東西，聽外地人說這是一種叫「化石」的東西，是以前的動物死掉留下來的，還告訴我這裡以前是一片海啊，真是太離譜了，這怎麼可能呢？"
+                    },
+                    {
+                        "type" : "image_continue",
+                        "content" : "https://i.imgur.com/v7F3s5A.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "continue" : {
+                "weight" : 0,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text",
+                        "content" : "2018.7.23\n\n為了重建村落，每個族人都非常賣力的工作，但今年的夏天卻特別的熱，族人們陸續有人在工作時暈倒，父親要我早點結束工作去幫忙照顧暈倒的族人們，最近怪事接二連三，實在是太奇怪了。這麼一想，我昨天在山上看到一隻形似穿山甲的動物，他的皮膚透出了一條一條紅紅的線，看起來有點令人作嘔，晚上時去問了外地人知不知道這些事情是怎麼回事，仔細一想，外地人似乎提過類似的事情......"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "再次介紹暖化: https://youtu.be/Zk-sWs6ZTGo\n「溫室效應」簡單來說，就是地球的大氣中有會吸收地表輻射的溫室氣體，例如二氧化碳（CO2）、氧化亞氮（N2O）、甲烷（CH4），這些溫室氣體在大氣中的濃度越高會導致地球的平均溫度隨之升高，因此造成了地球暖化。\n 例如：暖化導致紅冠灰鳳頭鸚鵡的喙越來越大"
+                    },
+                    {
+                        "type" : "image",
+                        "content" : "https://i.imgur.com/DEvXJr1.jpg"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "氣候暖化導致動物為了求生而開始改變身體形態 : https://tw.news.yahoo.com/%E6%B0%A3%E5%80%99%E6%9A%96%E5%8C%96%E5%B0%8E%E8%87%B4%E5%8B%95%E7%89%A9%E7%82%BA%E4%BA%86%E6%B1%82%E7%94%9F%E8%80%8C%E9%96%8B%E5%A7%8B%E6%94%B9%E8%AE%8A%E8%BA%AB%E9%AB%94%E5%BD%A2%E6%85%8B-064510328.html\n氣候變化：新研究揭示動物「改變身形」應對全球變暖 : https://www.bbc.com/zhongwen/trad/science-58507120"
+                    },
+                    {
+                        "type" : "text_question",
+                        "content" : "A. 外地人好聰明！他們懂好多！ B. 但溫室氣體不也是外地人排放的嗎？"
+                    }
+                ]
+            }
+        },
+        {
+            "A" : {
+                "weight" : 1,
+                "pass" : true,
+                "contents" : []
+            },
+            "B" : {
+                "weight" : -1,
+                "pass" : true,
+                "contents" : []
+            }
+        },
+        {
+            "continue" : {
+                "weight" : 0,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text",
+                        "content" : "2018.9.30 \n\n又到了女神給我們歷練的日子了，過了一天暴雨才減緩，但即使暴雨已息，強風仍殘喘，彷彿警惕著我們不要放鬆警戒。今年因為有外地人的建議，被狂風帶走的人相比之前少了許多。他們似乎很了解女神的歷練，聽說他們甚至能預測女神何時會來到。"
+                    },
+                    {
+                        "type" : "text_question",
+                        "content" : "A. 為了感謝外地人，邀請外地人參加祭典\nB. 向外地人請教颱風知識 "
+                    }
+                ]
+            }
+        },
+        {
+            "A" : {
+                "weight" : 0,
+                "pass" : true,
+                "contents" : []
+            },
+            "B" : {
+                "weight" : 0,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text_continue",
+                        "content" : "外地人介紹颱風 : https://youtu.be/wwIm3r2ZpsI"
+                    }
+                ]
+            }
+        },
+        {
+            "continue" : {
+                "weight" : 0,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text",
+                        "content" : "2018.10.3\n\n隨著女神的試煉結束，原先會饋贈給我族的瑰寶神風魚-庫魯克雅魚，今年的數量卻鳳毛麟角，我心裡又疑惑又難受，是否族人的行為觸犯了女神的禁忌，才遭受這樣的懲罰？看著族人失望的神情，作為公主的我究竟當何去何從？"
+                    },
+                    {
+                        "type" : "text_question",
+                        "content" : "A. 詢問外地人原因\nB.決定在今年慶典時祈求女神的原諒"
+                    }
+                ]
+            }
+        },
+        {
+            "A" : {
+                "weight" : 1,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text",
+                        "content" : "外地人介紹氣候變遷(暖化)與魚群關 : https://youtu.be/9-98GVr_g9k\n海水酸化、海中的溶氧量降低，造成整個海洋生物鏈的衝擊和影響。暖化會造成海洋生物分布範圍的改變，棲息在水溫較高處的生物，會向高緯度海域及向深海擴大分布水域，而棲息在水溫較低的海洋生物的棲息海域則受到限縮；其次也會改變浮游生物的種類豐度，高緯度生產力變高，而低緯度變低，因此也會造成食物鏈物種組成及種間繁殖期的錯亂，導致捕食與被捕食關係的失調，生態系崩壞以及生物多樣性的喪失等。\n有關過度捕撈，讓人笑不出來的事實過度捕撈造成全球漁業資源枯竭，不只海洋，包括陸地生態系都將面臨浩劫。陸地經濟動物需求將升高、非法遠洋漁業工人遭到虐待等問題都與過度捕撈相關"
+                    },
+                    {
+                        "type" : "image",
+                        "content" : "https://i.imgur.com/VauL2P3.jpg"
+                    },
+                    {
+                        "type" : "image",
+                        "content" : "https://i.imgur.com/SP6qiKS.jpg"
+                    },
+                    {
+                        "type" : "image",
+                        "content" : "https://i.imgur.com/8qRbpAL.jpg"
+                    },
+                    {
+                        "type" : "text_continue",
+                        "content" : "連結：\n過度捕撈 - https://www.greenpeace.org/taiwan/update/12757/有關過度捕撈，12個讓人笑不出來的事實/\n海洋資源枯竭真相 - https://www.greenpeace.org/taiwan/update/10937/%E5%85%A8%E7%90%83%E8%BF%9190%E9%AD%9A%E7%A8%AE%E9%9D%A2%E8%87%A8%E9%81%8E%E5%BA%A6%E6%8D%95%E6%92%88%E5%8D%B1%E6%A9%9F%EF%BC%81%E6%B5%B7%E6%B4%8B%E8%B3%87%E6%BA%90%E6%9E%AF%E7%AB%AD%E7%9C%9F%E7%9B%B8/"
+                    }
+                ]
+            },
+            "B" : {
+                "weight" : -1,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text",
+                        "content" : "原住民的傳統節日對他們來說是想當慎重的，舉行祭祀以祈求祖靈和神明保佑生活平安，並祈求祖靈賜福族人狩獵豐收。"
+                    },
+                    {
+                        "type" : "image",
+                        "content" : "https://i.imgur.com/iugRaI8.png"
+                    },
+                    {
+                        "type" : "image",
+                        "content" : "https://i.imgur.com/L71bGmN.jpg"
+                    },
+                    {
+                        "type" : "text_continue",
+                        "content" : "連結：\n原住民介紹網 - http://www.tipp.org.tw/aborigines_info.asp?A_ID=1&AC_No=5"
+                    }
+                ]
+            }
+        },
+        {
+            "continue" : {
+                "weight" : 0,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text",
+                        "content" : "2018.10.12\n\n外地人似乎也很關心神風魚，天天來找爸爸說的都是神風魚的事，雖然爸爸要我不要擔心，但我想不聽見都難。外地人說圈養，我也不知道那是什麼，但爸爸似乎面有難色，他說圈養就是把神風魚關在籠子裡。可是外地人只告訴我這樣神風魚就不會消失，我不是很明白，因為"
+                    },
+                    {
+                        "type" : "text_question",
+                        "content" : "A. 覺得他們很有智慧，這樣神風魚就不會消失，爸爸在猶豫什麼？\nB.  神風魚怎麼能被關在籠子裡，這也太不尊重祂們了，別說女神會生氣了，我看了都害怕。"
+                    }
+                ]
+            }
+        },
+        {
+            "A" : {
+                "weight" : 1,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "image",
+                        "content" : "https://i.imgur.com/NejIC5q.jpg"
+                    },
+                    {
+                        "type" : "image",
+                        "content" : "https://i.imgur.com/l4Qb0yN.jpg"
+                    },
+                    {
+                        "type" : "text_continue",
+                        "content" : "網頁連結：\n小丑魚復育成功 - https://udn-com.cdn.ampproject.org/v/s/udn.com/news/amp/story/7470/4663455?amp_js_v=a6&amp_gsa=1&usqp=mq331AQKKAFQArABIIACAw%3D%3D#aoh=16398395148521&referrer=https%3A%2F%2Fwww.google.com&amp_tf=%E4%BE%86%E6%BA%90%EF%BC%9A%251%24s&ampshare=https%3A%2F%2Fudn.com%2Fnews%2Fstory%2F7470%2F4663455\n 影片連結：\n山麻雀復育成功影片資訊 - https://hiking.biji.co/index.php?q=news&act=info&id=18563"
+                    }
+                ]
+            },
+            "B" : {
+                "weight" : -1,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text",
+                        "content" : "圈養保育類動物並不像想像中簡單，他們是野生動物，不像貓狗已為人類所馴服。即使成功復育，他們也許已經不再適應環境，想再放它回野外時又已經來不及了。因為在人類飼養環境下的野生動物無法適應環境生活。"
+                    },
+                    {
+                        "type" : "image",
+                        "content" : "https://i.imgur.com/oEoYvuu.png"
+                    },
+                    {
+                        "type" : "text_continue",
+                        "content" : "網頁連結：\n圈養動物野放的困難 - https://www.bbc.com/ukchina/trad/vert-earth-47288435\n影片連結\n不人性的人工圈養 - https://www.youtube.com/watch?app=desktop&v=pV1Dfkmh5W8"
+                    }
+                ]
+            }
+        },
+        {
+            "continue" : {
+                "weight" : 0,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text",
+                        "content" : "2018.10.31\n\n神聖中帶有熱情的祭典舞蹈在火光的映照下震撼著所有人的心神。我看見平時最愛對我指手畫腳幾個外地人也放下了高傲，同大家一起唱歌、並對神女之舞熱切又真心的讚嘆著。尊貴的文化局外賓在舞蹈結束後找上了掌管神女儀禮的我，他說他必須把神女之舞這麼特別的表演納入博物館非物質文化收藏，太精彩了！希望三個月後從北大洲遠渡參訪而來的外國貴賓能有眼福欣賞。我的心境有些複雜，如果我同意了這個選項，那麼就有機會讓更多人一睹神女之舞的魅力，借此，我們灰曼尼特族的文化精神也能傳揚散播。可神女之舞該是一年一度的，並且應以灰曼尼特所居的這塊土地為根，其中代表生命力茁壯的舞蹈動作才有其意義。但如果我拒絕了，雖然能夠繼續完美遵守灰曼尼特傳統以來重視的禁忌與儀禮，可對比失去的龐大資源及未來可能失傳的風險，這真的有意義嗎？結束表演的小潔打破了沈默，有些諷刺的向文化局的先生提出了一個問題，她問道，到底什麼樣的東西才應該被收進博物館「展示」？這該是由誰來決定及安排的？是外地的專家學者，還是是最深入了解該文化的居民？"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "看到說不出話的文化局先生，我心裡其實默默也有答案："
+                    },
+                    {
+                        "type" : "text_question",
+                        "content" : "A. 應該以專家學者的角度，保留最多人類文化為主\nB. 應該以居民的意願為主"
+                    }
+                ]
+            }
+        },
+        {
+            "A" : {
+                "weight" : 1,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text_continue",
+                        "content" : "https://www.npm.gov.tw/Articles.aspx?sno=04003731"
+                    }
+                ]
+            },
+            "B" : {
+                "weight" : -1,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text_continue",
+                        "content" : "https://www.thenewslens.com/article/54870"
+                    }
+                ]
+            }
+        },
+        {
+            "continue" : {
+                "weight" : 0,
+                "pass" : false,
+                "contents" : [
+                    {
+                        "type" : "text",
+                        "content" : "2018.12.12\n\n外地人要離開了，他們很說喜歡我們的部落，想讓更多人來，只要我們照著他們的建議做，他們就能讓我們的生活品質提升。"
+                    }, 
+                    {
+                        "type" : "text_question",
+                        "content" : "A. 是，接受外地人的建議\nB. 否，我們很快樂"
+                    }
+                ]
+            }
+        },
+        {
+            "A" : {
+                "weight" : 1,
+                "pass" : true,
+                "contents" : []
+            },
+            "B" : {
+                "weight" : -1,
+                "pass" : true,
+                "contents" : []
             }
         }
     ]
