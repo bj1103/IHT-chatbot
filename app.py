@@ -6,6 +6,7 @@ from linebot.models import MessageEvent, TextMessage, TextSendMessage, FlexSendM
 import random
 import json
 from message import *
+from data.text import *
 import os
 import logging
 import pickle
@@ -52,9 +53,15 @@ def reply(event):
     if event.message.text == '== Start ==':
         user = Chatbot(event, line_bot_api)
     elif event.message.text == '== Rule ==':
-        pass
+        messages = TextSendMessage(
+            text=rules,
+        )
+        user.send_message(event, messages, line_bot_api)
     elif event.message.text == '== Staff member ==':
-        pass
+        messages = TextSendMessage(
+            text=members,
+        )
+        user.send_message(event, messages, line_bot_api)
     else:
         user.next_state(event, line_bot_api)
 
