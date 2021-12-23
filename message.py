@@ -126,7 +126,7 @@ class Chatbot:
                     text=ending,
                     quick_reply=QuickReply(
                         items=[
-                            QuickReplyButton(action=MessageAction(label="end", text="end"))
+                            QuickReplyButton(action=MessageAction(label="continue", text="continue"))
                         ]
                     )
                 )
