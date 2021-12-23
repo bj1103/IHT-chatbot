@@ -144,7 +144,7 @@ class Chatbot:
             self.send_message(event, messages, line_bot_api)
             self.problem_num += 1
         
-        elif self.state == 2 and event.message.text == 'end':
+        elif self.state == 2 and event.message.text == 'continue':
             messages = TextSendMessage(
                 text=looping_message,
                 quick_reply=QuickReply(
